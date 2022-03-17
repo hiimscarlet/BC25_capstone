@@ -289,3 +289,21 @@ a.btn-default:hover, button.btn-default:hover {
     color: #fd4766;
     transition: all .4s ease-in-out;
 }
+/* countup */
+#countup{
+    background-color: #189A46;
+}
+.countup{
+    padding: 0 3rem;
+}
+.count_item{
+    text-align: center;
+}
+.count_item p{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+.count_item h3{
+    color: #D0EAD5;
+}
