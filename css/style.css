@@ -52,6 +52,23 @@ html body{
     background-color: #F8F9FA;
 }
 /* Carousel */
+.carousel-indicators li {
+    width: 20px;
+    height: 0px;
+    margin: 5px 10px;
+    background: #fff;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    position: relative;
+    opacity: 0.9;
+}
+.carousel-indicators li:hover{
+    background: #35a22c;
+    width: 50px;
+    height: 0px;
+}
 .carousel-item{
     height: 600px;
     background-size: cover;
@@ -289,9 +306,11 @@ a.btn-default:hover, button.btn-default:hover {
     color: #fd4766;
     transition: all .4s ease-in-out;
 }
+
 /* countup */
 #countup{
     background-color: #189A46;
+    margin-top: 7rem;
 }
 .countup{
     padding: 0 3rem;
@@ -303,7 +322,111 @@ a.btn-default:hover, button.btn-default:hover {
     font-size: 4rem;
     font-weight: 700;
     color: white;
+    margin-bottom: 0rem;
+    margin-top: 55px;
 }
 .count_item h3{
     color: #D0EAD5;
+    margin-bottom: 3rem;
+    font-size: 20px;
+}
+
+/*Contexture*/
+#contexture {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+}
+.contexture__info b{
+    font-size: 50px;
+}
+.contexture__title {
+    color: #8b8b8b;
+    margin-bottom: 50px;
+}
+.contexture__content {
+    font-size: 16px;
+    padding: 0px 20px;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 10rem;
+    border-radius: 10px;
+}
+.contexture__info button{
+    padding: 15px 38px;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 0.3s ease-in;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #189A46;
+    border-color: #189A46;
+}
+.contexture__info button:hover{
+    background-color: #156b32;
+    color: #fff;
+}
+
+/* footer */
+#footer {
+    background-color: black;
+    display: block;
+    color: white;
+}
+.contact1{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.copyright {
+    color: #5a6269;
+}
+.contact1 h3{
+    font-size: 20px;
+}
+.contact1 p, p b, a{
+    font-size: 16px;
+}
+.contact1 a{
+    color: #5a6269;
+}
+.contact1 a:hover{
+    color: #fff;
+}
+.contact1 i{
+    font-size: 16px;
+    margin-right: 15px;
+}
+.contact1 i:hover{
+    color: #fff;
+    transition: all 1.5s;
+}
+.contact2 {
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 70px;
+}
+.company__info h3, .quick__links h3,
+.support h3{
+    font-size: 20px;   
+    margin-right: 5rem;
+}
+.contact2 ul li{
+    list-style: none;
+}
+.contact2 ul li a{
+    color: #5a6269;
+}
+.contact2 ul li a:hover {
+    color: #fff;
+}
+.link {
+    color: #5a6269;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 2rem;
+}
+.link a{
+    color: #d63123;
 }
