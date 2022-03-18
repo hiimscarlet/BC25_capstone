@@ -135,6 +135,37 @@ html body{
     transition: all 0.8s;
 }
 
+/* light and dark theme */
+.mobile-position {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+.theme-switch {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    margin: 0;
+}
+.theme-switch input {
+    display: none;
+}
+.mode-container {
+    width: 24px;
+    height: 24px;
+    padding: 3px 0;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.mode-container .fa-sun {
+    display: none;
+}
+.mobile-position button {
+    border: none;
+    background-color: #f8f9fa;
+}
+
 /*About Us */
 .project__title {
     text-align: center;
@@ -314,12 +345,12 @@ a.btn-default:hover, button.btn-default:hover {
 }
 
 /* countup */
-/* countup */
 #countup{
     background-color: #189A46;
+    margin-top: 6rem;
 }
 .countup{
-    padding: 0 3rem;
+    padding: 3rem 3rem;
 }
 .count_item{
     text-align: center;
@@ -333,9 +364,7 @@ a.btn-default:hover, button.btn-default:hover {
     font-size: 1rem;
     color: #D0EAD5;
 }
-#countup{
-    margin: 2rem auto;
-}
+
 /* ourplans */
 #ourplans{
     background-color: #FAF7FE;
@@ -346,9 +375,11 @@ a.btn-default:hover, button.btn-default:hover {
     color: #F53626;
     font-size: 1.5rem;
     font-weight: 700;
+    padding-top: 6rem;
 }
 .ourplans_title h2{
     text-align: center;
+    padding-bottom: 2rem;
 }
 .ourplans_item{
     text-align: center;
@@ -360,8 +391,9 @@ a.btn-default:hover, button.btn-default:hover {
     font-weight: 600;
 }
 .ourplans_item .card-footer{
-    background-color: white;
+     background-color: white;
     border: none;
+    color: #878b8e;
 }
 .ourplans_itemcenter{
     text-align: center;
@@ -378,13 +410,23 @@ a.btn-default:hover, button.btn-default:hover {
 }
 .save__package{
     background-color: white;
-    width: 50%;
-    border-radius: 4px;
-    margin: 0 auto;
+    width: 40%;
+    border-radius: 8px;
+    margin: 25px auto;
+    padding: 4px 10px;
 }
 .save__package h3{
     font-size: 1rem;
     color: green;
+}
+.card-header .price__1 {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+.card-header .month__1 {
+    font-size: 20px;
+    color: white;
 }
 .ourplans_itemcenter .card-header h2{
     font-size: 1.5rem;
@@ -399,10 +441,13 @@ label{
 .card-body span{
     font-size: 1.5rem;
 }
+.card-body p{
+    color: #878b8e;
+}
 .price{
     color: green;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 50px;
 }
 .icon{
     color: green;
