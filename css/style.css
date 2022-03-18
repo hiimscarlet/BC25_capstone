@@ -300,10 +300,85 @@ a.btn-default:hover, button.btn-default:hover {
     text-align: center;
 }
 .count_item p{
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 700;
     color: white;
 }
 .count_item h3{
+    font-size: 1rem;
     color: #D0EAD5;
+}
+#countup{
+    margin: 2rem auto;
+}
+/* ourplans */
+#ourplans{
+    background-color: #FAF7FE;
+    padding: 50px auto;
+}
+.ourplans_title h3{
+    text-align: center;
+    color: #F53626;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.ourplans_title h2{
+    text-align: center;
+}
+.ourplans_item{
+    text-align: center;
+}
+.ourplans_item .card-header{
+    background-color: white;
+    border: none;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.ourplans_item .card-footer{
+    background-color: white;
+    border: none;
+}
+.ourplans_itemcenter{
+    text-align: center;
+}
+.ourplans_itemcenter .card-header{
+    background-color: #189A46;
+    color: white;
+    padding: 1.5rem 0;
+}
+.ourplans_itemcenter .card-footer{
+    background-color: white;
+    border: none;
+    padding: 40px 0;
+}
+.save__package{
+    background-color: white;
+    width: 50%;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+.save__package h3{
+    font-size: 1rem;
+    color: green;
+}
+.ourplans_itemcenter .card-header h2{
+    font-size: 1.5rem;
+}
+.item__1{
+    padding: 50px 0;
+}
+label{
+    font-size: 25px;
+    vertical-align: text-top;
+}
+.card-body span{
+    font-size: 1.5rem;
+}
+.price{
+    color: green;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.icon{
+    color: green;
 }
