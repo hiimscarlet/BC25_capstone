@@ -7,6 +7,12 @@
 html body{
     font-family: 'Jost', sans-serif;
 }
+#header{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 40px;
+}
 .navbar{
     padding: 0 100px;
 }
@@ -499,4 +505,7 @@ label{
 }
 .link a{
     color: #d63123;
+}
+.videos__title{
+    text-align: center;
 }
