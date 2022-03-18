@@ -164,7 +164,7 @@ html body{
 }
 .mobile-position button {
     border: none;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
 }
 
 /*About Us */
@@ -555,3 +555,74 @@ label{
 .videos__title{
     text-align: center;
 }
+
+/* backtotop */
+.backtotop{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    background-color: #249f50;
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
+.backtotop:hover {
+    color: white;
+}
+#options {
+    float: right;
+    position: fixed;
+    right: 5px;
+    top: 6rem;
+    width: 100px;
+    z-index: 99999;
+    text-align: center;
+    background-color: #0d1326;
+    margin: 10px;
+    margin-top: 2rem;
+    border-radius: 7px;
+}
+.right .more__options a {
+    text-decoration: none;
+    opacity: 1;
+    color: #8f95a8;
+}
+.more__options .icon {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-align: center;
+    color: #8f95a8;
+}
+.more__options a:hover {
+    color: white;
+}
+.more__options .icon:hover {
+    color: white;
+}
+.pull__right {
+    float: right;
+    position: fixed;
+    right: 35px;
+    top: 73px;
+    width: 50px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 2rem;
+    border-radius: 3rem;
+    list-style: none;
+    border: 2px solid #868993;
+    background-color: #868993;
+}
+.pull__right a{
+    color: #f3f5ff;
+}
+
