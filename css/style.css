@@ -15,6 +15,7 @@ html body{
 }
 .navbar{
     padding: 0 100px;
+    background-color: white;
 }
 #logo{
     color: #189a46;
