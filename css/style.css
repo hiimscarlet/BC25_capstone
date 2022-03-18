@@ -75,6 +75,11 @@ html body{
     width: 50px;
     height: 0px;
 }
+.carousel-indicators .active {
+    background: #35a22c;
+    width: 50px;
+    height: 0px;
+}
 .carousel-item{
     height: 600px;
     background-size: cover;
@@ -508,4 +513,83 @@ label{
 }
 .videos__title{
     text-align: center;
+}
+.videos__title{
+    position: relative;
+}
+.poster{
+    position: absolute;
+    top: -6px;
+    left: 248px;
+    width: 645px;
+    height: 310px;
+    margin-top: 0;
+    visibility: visible;
+}
+.btn-play{
+    background-color: white;
+    color: #E8A76F;
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    z-index: 1;
+    border-radius: 50%;
+    padding: 15px 17px;
+}
+/* feedback */
+#feedback{
+    background-color: #F8F9FA;
+}
+.feedback__title{
+    text-align: center;
+}
+.feedback__title h4{
+    color: #189a46;
+}
+.card-body span {
+    font-size: 1rem;
+}
+.feedback__label{
+    font-size: 25px;
+    vertical-align: text-top;
+    color: green;
+    font-weight: 400;
+}
+.feedback__info{
+    display: flex;
+}
+.feedback__content .card{
+    margin-right: 10px;
+}
+.test-img{
+    width: 70px;
+    height: 70px;
+}
+.test-img img{
+    width: 100%;
+    margin-top: 0;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+.img-content{
+    margin-left: 10px;
+}
+.img-content h4{
+    font-size: 1rem;
+}
+.img-content h3{
+    font-size: 0.8rem;
+}
+.slick-dots li button:before {
+    color: gray;
+    font-size: 0.5rem;
+}
+.slick-dots li.slick-active button:before {
+    color: green;
+    font-size: 1rem;
 }

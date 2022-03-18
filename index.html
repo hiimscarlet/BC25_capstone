@@ -19,6 +19,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- slick -->
+    <link rel="stylesheet" href="./libs/slick/slick.css">
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css">
+    <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -291,7 +295,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- CountUP -->
     <section id="countup">
         <div class="countup row">
@@ -313,8 +317,8 @@
             </div>
         </div>
     </section>
-<!--   Ourplans   -->
-     <section id="ourplans">
+    <!--   Ourplans   -->
+    <section id="ourplans">
         <div class="ourplans_title">
             <h3>Our Plans</h3>
             <h2>Affordable Packages</h2>
@@ -387,7 +391,7 @@
             </div>
         </div>
     </section>
-     <!-- videos -->
+    <!-- videos -->
     <section id="videos">
         <div class="videos__title container">
             <h4>BETTER PET NUTRITION</h4>
@@ -397,7 +401,139 @@
                 molestiae.</p>
         </div>
         <div class="videos__title container">
-            <iframe width="640" height="300" src="https://player.vimeo.com/video/101587706" ></iframe>
+            <button id="btn-play" class="btn-play"><i class="fas fa-play"></i></i></button>
+            <img id="poster" class="poster" src="./img/banner2.jpg">
+            <iframe class="videos__1" width="640" height="300" src="https://player.vimeo.com/video/101587706"
+                frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+    </section>
+    <!--feedback-->
+    <section id="feedback">
+        <div class="feedback__title">
+            <h4>TESTIMONIALS</h4>
+            <h3>Happy Clients & Feedbacks</h3>
+        </div>
+        <div class="feedback__content container">
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">
+                        <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                            accusantium labore eligendi necessitatibus! Exercitationem dolores aspernatur beatae
+                            incidunt natus, sit fugiat, error ut, vel explicabo numquam consequatur voluptate ea.
+                            Excepturi?
+                        </span>
+                    </p>
+                    <div class="feedback__info">
+                        <div class="test-img">
+                            <img src="./img/f1.jpg">
+                        </div>
+                        <div class="img-content">
+                            <h4 class="card-title">John Doe</h4>
+                            <h3> Example City</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">
+                        <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                            accusantium labore eligendi necessitatibus! Exercitationem dolores aspernatur beatae
+                            incidunt natus, sit fugiat, error ut, vel explicabo numquam consequatur voluptate ea.
+                            Excepturi?
+                        </span>
+                    </p>
+                    <div class="feedback__info">
+                        <div class="test-img">
+                            <img src="./img/f2.jpg">
+                        </div>
+                        <div class="img-content">
+                            <h4 class="card-title">Julia sakura</h4>
+                            <h3> Example City</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">
+                        <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                            accusantium labore eligendi necessitatibus! Exercitationem dolores aspernatur beatae
+                            incidunt natus, sit fugiat, error ut, vel explicabo numquam consequatur voluptate ea.
+                            Excepturi?
+                        </span>
+                    </p>
+                    <div class="feedback__info">
+                        <div class="test-img">
+                            <img src="./img/f3.jpg">
+                        </div>
+                        <div class="img-content">
+                            <h4 class="card-title">John Doe</h4>
+                            <h3> Example City</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">
+                        <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                            accusantium labore eligendi necessitatibus! Exercitationem dolores aspernatur beatae
+                            incidunt natus, sit fugiat, error ut, vel explicabo numquam consequatur voluptate ea.
+                            Excepturi?
+                        </span>
+                    </p>
+                    <div class="feedback__info">
+                        <div class="test-img">
+                            <img src="./img/f4.jpg">
+                        </div>
+                        <div class="img-content">
+                            <h4 class="card-title">Jonny Dang</h4>
+                            <h3> Example City</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">
+                        <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                            accusantium labore eligendi necessitatibus! Exercitationem dolores aspernatur beatae
+                            incidunt natus, sit fugiat, error ut, vel explicabo numquam consequatur voluptate ea.
+                            Excepturi?
+                        </span>
+                    </p>
+                    <div class="feedback__info">
+                        <div class="test-img">
+                            <img src="./img/f1.jpg">
+                        </div>
+                        <div class="img-content">
+                            <h4 class="card-title">Khoa Pug</h4>
+                            <h3> Example City</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">
+                        <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                            accusantium labore eligendi necessitatibus! Exercitationem dolores aspernatur beatae
+                            incidunt natus, sit fugiat, error ut, vel explicabo numquam consequatur voluptate ea.
+                            Excepturi?
+                        </span>
+                    </p>
+                    <div class="feedback__info">
+                        <div class="test-img">
+                            <img src="./img/f3.jpg">
+                        </div>
+                        <div class="img-content">
+                            <h4 class="card-title">Naruto</h4>
+                            <h3> Example City</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Contexture -->
@@ -460,10 +596,10 @@
                 </div>
             </div>
         </div>
-            <div class="link">© 2020 Pooch Care. All Rights Reserved.
-                Design by <a href="#">W3Layouts</a></div>
+        <div class="link">© 2020 Pooch Care. All Rights Reserved.
+            Design by <a href="#">W3Layouts</a></div>
     </section>
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -477,7 +613,7 @@
         integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
         </script>
-      <!-- count up -->
+    <!-- count up -->
     <script src="./libs/countup/jquery.countup.min.js"></script>
     <script>$('.counter').countUp()</script>
     <!-- wow -->
@@ -486,6 +622,22 @@
         new WOW().init();
     </script>
 
+    <!-- slick -->
+    <script src="./libs/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.feedback__content').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 2,
+                margin: 20,
+                adaptiveHeight: true
+            });
+        })
+    </script>
+    <!-- javascrips -->
+    <script src="./js/main.js"></script>
 
 </body>
 
