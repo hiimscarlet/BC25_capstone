@@ -1,7 +1,36 @@
 <!doctype html>
 <html lang="en">
 
-<head>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            padding: 0px;
+            background-color: white;
+            color: black;
+            font-size: 25px;
+        }
+
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+        .dark-mode .project__title a{
+            color: white;
+        }
+        .dark-mode a{
+            color: white;
+        }
+        .dark-mode p {
+            color: #afafaf;
+        }
+        .dark-mode b {
+            color: white;
+        }
+        .dark-mode #ourplans{
+            color: white;
+            background-color: black;
+        }
+    </style>
     <title>Pooch Care</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -62,7 +91,28 @@
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
-                <button class="btn-mode"><i class="fas fa-moon nav-link"></i></button>
+                <!-- toggle switch for light and dark theme -->
+                <div class="mobile-position">
+                    <nav class="navigation">
+                        <div class="theme-switch">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <button onclick="myFunction()">
+                                        <i class="fas fa-moon"></i>
+                                        <i class="fas fa-sun "></i>
+                                    </button>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <script>
+                    function myFunction() {
+                        var element = document.body;
+                        element.classList.toggle("dark-mode");
+                    }
+                </script>
             </div>
         </nav>
     </header>
@@ -349,7 +399,8 @@
                             </div>
                             <h2>Standard Package</h2>
                             <h4> <label>$</label>
-                                <span> 39/month </span>
+                                <span class="price__1">39</span>
+                                <span class="month__1">/month</span>
                             </h4>
                         </div>
                         <div class="card-body">
