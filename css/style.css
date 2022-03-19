@@ -163,8 +163,17 @@ html body{
     margin-bottom: 20px;
     cursor: pointer;
 }
-.mode-container .fa-sun {
+.mode-container i:nth-child(1) {
+    display: block;
+}
+.mode-container i:nth-child(2) {
     display: none;
+}
+.mode-container.toggle-icon i:nth-child(1) {
+    display: none !important;
+}
+.mode-container.toggle-icon i:nth-child(2) {
+    display: block !important; 
 }
 .mobile-position button {
     border: none;
