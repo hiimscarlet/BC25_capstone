@@ -147,12 +147,6 @@
                         </div>
                     </nav>
                 </div>
-                <script>
-                    function myFunction() {
-                        var element = document.body;
-                        element.classList.toggle("dark-mode");
-                    }
-                </script>
             </div>
         </nav>
     </header>
@@ -790,6 +784,13 @@
         });
     </script>
     <!-- javascrips -->
+    <script>
+         function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+            document.querySelector('.mode-container').classList.toggle('toggle-icon')
+        }
+    </script>
     <script src="./js/main.js"></script>
 
 </body>
